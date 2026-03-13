@@ -1,7 +1,0 @@
-flask
-selenium
-undetected-chromedriver
-gunicorn
-pandas
-openpyxl
-webdriver-manager
