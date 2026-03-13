@@ -1,0 +1,21 @@
+{
+  "urls": {
+    "undergrad": "https://inpt.rdd.edu.iq/register?type=undergrad",
+    "postgrad": "https://inpt.rdd.edu.iq/register?type=postgrad"
+  },
+  "selectors": {
+    "first_name": "input[placeholder*='الاسم الاول']",
+    "father_name": "input[placeholder*='اسم الاب']",
+    "grandfather_name": "input[placeholder*='اسم الجد']",
+    "great_grandfather": "input[placeholder*='اسم اب الجد']",
+    "mother_name": "input[placeholder*='اسم الام']",
+    "national_id": "input[placeholder*='البطاقة الموحدة']",
+    "exam_number": "input[placeholder*='الرقم الامتحاني']",
+    "phone": "input[placeholder*='رقم الهاتف']",
+    "email": "input[placeholder*='البريد الالكتروني']",
+    "gender": "select",
+    "grad_round": "select",
+    "study_type": "select",
+    "submit_btn": "button:contains('انشاء حساب')"
+  }
+}
